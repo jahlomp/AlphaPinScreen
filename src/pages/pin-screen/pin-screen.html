@@ -9,7 +9,15 @@
 
 <ion-content padding>
   <h6 ion-text text-center text-uppercase color="light">Touch ID or enter <br /> passcode</h6>
-  <ion-grid>
+
+  <div text-center margin-vertical>
+      <ion-icon name="radio-button-on" color="light"></ion-icon>
+      <ion-icon name="radio-button-off" color="light"></ion-icon>
+      <ion-icon name="radio-button-off" color="light"></ion-icon>
+      <ion-icon name="radio-button-off" color="light"></ion-icon>
+  </div>
+
+  <ion-grid text-center>
     <ion-row>
       <ion-col>
         <button ion-button round outline large color="light">1</button>
@@ -53,3 +61,6 @@
   </ion-grid>
 
 </ion-content>
+<ion-footer no-border text-center>
+    <button ion-button clear color="light">Cancel</button>
+</ion-footer>
